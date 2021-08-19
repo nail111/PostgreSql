@@ -1,0 +1,9 @@
+
+INSERT INTO users (name,birth,bio) VALUES ('Nail','1999-11-23','Programmer');
+
+Множественное добавление: 
+
+INSERT INTO users (name,bio) 
+VALUES
+('Aleksey','Actor'),
+('Leo','Footballer');

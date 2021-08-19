@@ -1,0 +1,20 @@
+
+1) BETWEEN
+
+SELECT name FROM users WHERE id BETWEEN 5 AND 10;
+
+2) IN
+
+SELECT name FROM users WHERE id IN(10,15);  // select name from users where id=10, id = 15;
+
+3) NOT IN
+
+SELECT name FROM users WHERE id NOT IN(10,15); // select name from users where id != 10, id != 15;
+
+4) AND
+
+SELECT name FROM users WHERE id IN(2,5) AND name = 'Ella';
+
+5) OR
+
+SELECT name FROM users WHERE id IN(2,5) OR name = 'Ella';

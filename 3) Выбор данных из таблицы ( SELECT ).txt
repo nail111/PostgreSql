@@ -1,0 +1,19 @@
+
+1) Выбрать все данные:
+
+SELECT * FROM users;
+
+или из другой базы данных:
+
+SELECT * FROM test.users;
+
+
+
+2) Выбрать определенные столбцы:
+
+SELECT name,bio FROM users;
+
+SELECT name,bio FROM users WHERE id >= 2 AND id < 5;
+
+SELECT name,bio FROM users WHERE id <> 1;  \\ не равно
+

@@ -1,0 +1,10 @@
+|| == CONCAT();
+LOWER();
+UPPER();
+LENGTH();
+
+
+
+For example: 
+   INSERT INTO users(City,Country) VALUES ('Baku','Azerbaijan');
+   SELECT UPPER(CONCAT(City,', ',Country)) AS Vmeste FROM users;

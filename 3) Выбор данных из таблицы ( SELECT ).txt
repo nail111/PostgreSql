@@ -17,3 +17,8 @@ SELECT name,bio FROM users WHERE id >= 2 AND id < 5;
 
 SELECT name,bio FROM users WHERE id <> 1;  \\ не равно
 
+
+3) Вычисление
+
+INSERT INTO users(cislo1,cislo2) VALUES(5,10);
+SELECT cislo1+cislo2 AS SummaCisel FROM users; // Output: Summa=15 

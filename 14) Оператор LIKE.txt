@@ -1,0 +1,6 @@
+
+SELECT * FROM users WHERE name LIKE 'N%'   - все записи которые начинаются на N
+
+SELECT * FROM users WHERE name LIKE '%N%'   - все записи в которых есть бука N
+
+SELECT * FROM users WHERE name LIKE '%N'   - все записи которые заканчиваются на N

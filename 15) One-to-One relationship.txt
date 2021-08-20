@@ -1,0 +1,10 @@
+
+CREATE TABLE users(id SERIAL PRIMARY KEY,user_name VARCHAR);
+
+INSERT INTO users(user_name) VALUES('Messi'),('Ronaldo'),('Neymar');
+
+CREATE TABLE clubs(club_name VARCHAR,user_id INTEGER REFERENCES users(id));
+
+INSERT INTO clubs(club_name,user_id) VALUES('PSJ',1),('PSJ',3),('JUVENTUS',2);
+
+SELECT id, user_name, club_name FROM users JOIN clubs ON user_id = users.id WHERE id>0 ORDER BY(id);

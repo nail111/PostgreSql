@@ -1,0 +1,8 @@
+
+UPDATE users SET birth = '2021-05-15' WHERE id = 4;
+
+UPDATE users SET name = 'Neymar' , bio = 'Footballer' , birth = '2010-10-10' WHERE id = 3;
+
+Множественное обновление: 
+
+UPDATE users SET birth = '2020-05-15' WHERE id = 3 OR id = 2;

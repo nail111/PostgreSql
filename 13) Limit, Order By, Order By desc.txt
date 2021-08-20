@@ -1,0 +1,8 @@
+
+SELECT * FROM users LIMIT 2;
+
+
+SELECT * FROM users ORDER BY id;
+
+
+SELECT * FROM users ORDER BY id DESC;
